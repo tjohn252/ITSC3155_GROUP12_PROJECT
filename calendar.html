@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>OurSchedule | Home</title>
+<style>
+
+BODY {
+  font-family: Trebuchet MS;
+  margin:20px;
+  background-color: #99ccff;
+}
+H1 {
+  text-align: center;
+  color: black;
+  letter-spacing: 3px;
+}
+H3 {
+  text-align: center;
+  color: black;
+}
+
+.myTimetable {
+  width:50%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  float:left
+}
+
+
+.myTimetable THEAD{
+  color: black;
+}
+
+.myTimetable TBODY {
+  background-color: #d9d9d9;
+}
+.myTimetable TD {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+.myTimetable TBODY TR TD:first-child {
+  background-color: white;
+  font-weight: bold;
+}
+.myTimetable TBODY TR:nth-child(5) TD:nth-child(5),TR:nth-child(6) TD:nth-child(5),TR:nth-child(7) TD:nth-child(5),TR:nth-child(8) TD:nth-child(5), TR:nth-child(9) TD:nth-child(5)
+{
+background-color:#0F3;
+}
+
+.myTimetable TBODY TR:nth-child(8) TD:nth-child(2), TR:nth-child(9) TD:nth-child(2),TR:nth-child(10) TD:nth-child(2)
+{
+background-color:#80ff99;
+}
+
+.myTimetable TBODY TR:nth-child(5) TD:nth-child(6),TR:nth-child(6) TD:nth-child(6),TR:nth-child(7) TD:nth-child(6)
+{
+background-color:#00801a;
+}
+.status {
+  font-size: 12pt;
+  margin-bottom:4px;
+}
+
+.timetable .open {
+  font-size: 10pt;
+  font-style: italic;
+}
+.myMembers {
+  width:47%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  float:right
+}
+.myMembers THEAD{
+  color: black;
+}
+
+.myMembers TBODY {
+  background-color: #d9d9d9;
+}
+.myMembers TD {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+.myMembers TBODY TR TD:first-child {
+  background-color: white;
+  font-weight: bold;
+}
+.myMembers TBODY TR:nth-child(1) TD:nth-child(1)
+{
+background-color:#00801a;
+}
+p.links{
+ font-size: 20pt;
+ font-style: italic;
+ display:block;
+ margin:10px 0 10px 0;
+ float:right;
+}
+hr {
+  border: 1px solid black;
+}
+
+</style>
+</head>
+<body>
+<header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+    </header>
+<H1>Our Schedule</H1>
+<br><br>
+<TABLE class="myTimetable"> 
+  <THEAD>
+    <TR>
+      <TH></TH>
+      <TH>Monday</TH>
+      <TH>Tuesday</TH>
+      <TH>Wednesday</TH>
+      <TH>Thursday</TH>
+      <TH>Friday</TH>     
+    </TR>
+  </THEAD>
+  <TBODY>
+    <TR>
+      <TD>6:00am</TD>
+      <TD>
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+       <TD>        
+         <div class="status">unavailable</div>
+      </TD>     
+    </TR>
+    <TR>
+      <TD>7:00am</TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD>8:00am</TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD>9:00am</TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+    </TR>
+      <TR>
+      <TD>10:00am</TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">available</div>
+        <div class ="open"></div>
+      </TD>
+      <TD>        
+        <div class="status">available</div>
+        <div class ="open"></div>
+      </TD>
+    </TR>
+<TD>11:00am</TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">available</div>
+        <div class ="open"></div>
+      </TD>
+      <TD>        
+        <div class="status">available</div>
+        <div class ="open"></div>
+      </TD>
+    </TR>
+<TD>12:00pm</TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">available</div>
+        <div class ="open"></div>
+      </TD>
+      <TD>        
+        <div class="status">available</div>
+        <div class ="open"></div>
+      </TD>
+    </TR>
+<TD>1:00pm</TD>
+      <TD>        
+        <div class="status">available</div>
+        <div class ="open"></div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">available</div>
+        <div class ="open"></div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+    </TR>
+<TD>2:00pm</TD>
+      <TD>        
+        <div class="status">available</div>
+        <div class ="open"></div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">available</div>
+        <div class ="open"></div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+    </TR>
+<TD>3:00pm</TD>
+      <TD>        
+        <div class="status">available</div>
+        <div class ="open"></div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+    </TR>
+<TD>4:00pm</TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+    </TR>
+<TD>5:00pm</TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+    </TR>
+<TD>6:00pm</TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+      <TD>        
+        <div class="status">unavailable</div>
+      </TD>
+    </TR>
+   </TBODY>
+  </TABLE>
+<H1>Team Members</H1>
+<H3>Thursday Availability:<H3>
+<TABLE class="myMembers"> 
+  <THEAD>
+    <TR>
+      <TH>Members</TH>
+       <TH>Available</TH>
+       <TH>Unavailable</TH>
+    </TR>
+  </THEAD>
+  <TBODY>
+<TD>Brandon</TD>
+      <TD>
+        <div class="status">available</div>
+        <div class="required"></div>
+      </TD>
+      <TD>
+        <div class="status"></div>
+      </TD>
+ </TR>
+<TD>Lucy</TD>
+      <TD>
+        <div class="status">available</div>
+      </TD>
+      <TD>
+        <div class="status"></div>
+      </TD>
+</TR>
+<TD>Micheal</TD>
+      <TD>
+        <div class="status">available</div>
+      </TD>
+      <TD>
+        <div class="status"></div>
+      </TD>
+</TR>
+<TD>Thomas</TD>
+      <TD>
+        <div class="status"></div>
+      </TD>
+      <TD>
+        <div class="status">unavailable</div>
+      </TD>
+</TR>
+  </TBODY>
+</TABLE>
+<p class = "spacing">
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+</p>
+<p class = "links">
+<a href="https://webpages.uncc.edu/Scheduler/my_schedule">
+    <img src="Desktop/save_icon" alt="Save" width=150" height="70" hspace="20">
+       </a>
+
+<a href="https://webpages.uncc.edu/Scheduler/my_schedule">
+    <img src="Desktop/edit_icon" alt="Edit" width=150" height="70" hspace="20">
+       </a>
+
+<a href="https://webpages.uncc.edu/Scheduler/my_schedule">
+         <img alt="Share" src="Desktop/share_icon" width=150" height="70" hspace="20">
+      </a>
+</p>
+</body>
+</html>
