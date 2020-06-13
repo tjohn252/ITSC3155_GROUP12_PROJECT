@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="utf-8">
+    <title>OurSchedule | Home</title>
 <style>
 
 BODY {
@@ -9,6 +11,11 @@ BODY {
   background-color: #99ccff;
 }
 H1 {
+  text-align: center;
+  color: black;
+  letter-spacing: 3px;
+}
+H3 {
   text-align: center;
   color: black;
 }
@@ -37,11 +44,20 @@ H1 {
   background-color: white;
   font-weight: bold;
 }
-.myTimetable TBODY TR:nth-child(5) TD:nth-child(5),TR:nth-child(5) TD:nth-child(6),TR:nth-child(6) TD:nth-child(5),TR:nth-child(6) TD:nth-child(6),TR:nth-child(7) TD:nth-child(5),TR:nth-child(7) TD:nth-child(6),TR:nth-child(8) TD:nth-child(2), TR:nth-child(9) TD:nth-child(2),TR:nth-child(10) TD:nth-child(2)
+.myTimetable TBODY TR:nth-child(5) TD:nth-child(5),TR:nth-child(6) TD:nth-child(5),TR:nth-child(7) TD:nth-child(5),TR:nth-child(8) TD:nth-child(5), TR:nth-child(9) TD:nth-child(5)
 {
 background-color:#0F3;
 }
 
+.myTimetable TBODY TR:nth-child(8) TD:nth-child(2), TR:nth-child(9) TD:nth-child(2),TR:nth-child(10) TD:nth-child(2)
+{
+background-color:#80ff99;
+}
+
+.myTimetable TBODY TR:nth-child(5) TD:nth-child(6),TR:nth-child(6) TD:nth-child(6),TR:nth-child(7) TD:nth-child(6)
+{
+background-color:#00801a;
+}
 .status {
   font-size: 12pt;
   margin-bottom:4px;
@@ -73,6 +89,10 @@ background-color:#0F3;
   background-color: white;
   font-weight: bold;
 }
+.myMembers TBODY TR:nth-child(1) TD:nth-child(1)
+{
+background-color:#00801a;
+}
 p.links{
  font-size: 20pt;
  font-style: italic;
@@ -80,10 +100,24 @@ p.links{
  margin:10px 0 10px 0;
  float:right;
 }
+hr {
+  border: 1px solid black;
+}
+
 </style>
 </head>
 <body>
-<H1>Project Schedule</H1>
+<header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Calendar</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </nav>
+    </header>
+<H1>Our Schedule</H1>
+<br><br>
 <TABLE class="myTimetable"> 
   <THEAD>
     <TR>
@@ -238,7 +272,8 @@ p.links{
         <div class="status">unavailable</div>
       </TD>
       <TD>        
-        <div class="status">unavailable</div>
+        <div class="status">available</div>
+        <div class ="open"></div>
       </TD>
       <TD>        
         <div class="status">unavailable</div>
@@ -256,7 +291,8 @@ p.links{
         <div class="status">unavailable</div>
       </TD>
       <TD>        
-        <div class="status">unavailable</div>
+        <div class="status">available</div>
+        <div class ="open"></div>
       </TD>
       <TD>        
         <div class="status">unavailable</div>
@@ -334,6 +370,7 @@ p.links{
    </TBODY>
   </TABLE>
 <H1>Team Members</H1>
+<H3>Thursday Availability:<H3>
 <TABLE class="myMembers"> 
   <THEAD>
     <TR>
@@ -346,6 +383,7 @@ p.links{
 <TD>Brandon</TD>
       <TD>
         <div class="status">available</div>
+        <div class="required"></div>
       </TD>
       <TD>
         <div class="status"></div>
@@ -378,7 +416,7 @@ p.links{
   </TBODY>
 </TABLE>
 <p class = "spacing">
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><hr>
 </p>
 <p class = "links">
 <a href="https://webpages.uncc.edu/Scheduler/my_schedule">
