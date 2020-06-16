@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang ="en-US">
+<head>
+<meta charset = "utf-8">
+<meta name ="viewport" content = "width=device-width, initial-scale=1">
+<title>The definitive source for all your planning needs</title>
+<link rel="stylesheet" href="template.css">
+</head>
+
+<header>
+<ul>
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Calendar</a></li>
+  <li><a href="#">Settings</a></li>
+</ul>
+</header>
+
+<body>
+<br>
+<form>
+<label for="eventName" style ="font-size:24px;font-weight:bold;">Event name:  </label>
+<input type ="text" id ="eventName" name="eventName"> <br>
+<br>
+<label for="selectDate" style="font-size:18px;font-weight:bold;">Select a date:</label><br>
+<input type="date" id="selectDate" name="selectDate">
+<br>
+<br>
+<label for="eventDuration" style="font-size:18px;font-weight:bold;">Event length:</label><br>
+<input type="text" id="eventDuration" name="eventDuration" value="Enter time in minutes"><br>
+<br>
+<label for="numMembers" style="font-size:18px;font-weight:bold;">Number of people:</label><br>
+<input type="text" id="numMembers" name ="numMembers" value="Number of people attending"><br>
+<br>
+
+<label for="from" style="font-size:18px;font-weight:bold;">From: </label>
+<select id="from" name="from">
+<option value="6am">6 AM</option>
+<option value="7am">7 AM</option>
+<option value="8am">8 AM</option>
+<option value="9am">9 AM</option>
+<option value="10am">10 AM</option>
+<option value="11am">11 AM</option>
+<option value="12pm">12 PM</option>
+<option value="1pm">1 PM</option>
+<option value="2pm">2 PM</option>
+<option value="3pm">3 PM</option>
+<option value="4pm">4 PM</option>
+<option value="5pm">5 PM</option>
+<option value="6pm">6 PM</option>
+<option value="7pm">7 PM</option>
+<option value="8pm">8 PM</option>
+<option value="9pm">9 PM</option>
+<option value="10pm">10 PM</option>
+<option value="11pm">11 PM</option>
+<option value="12am">12 AM</option>
+</select>
+
+<label for="to" style="font-size:18px;font-weight:bold;">  To: </label>
+<select id="to" name="to">
+<option value="6am">6 AM</option>
+<option value="7am">7 AM</option>
+<option value="8am">8 AM</option>
+<option value="9am">9 AM</option>
+<option value="10am">10 AM</option>
+<option value="11am">11 AM</option>
+<option value="12pm">12 PM</option>
+<option value="1pm">1 PM</option>
+<option value="2pm">2 PM</option>
+<option value="3pm">3 PM</option>
+<option value="4pm">4 PM</option>
+<option value="5pm">5 PM</option>
+<option value="6pm">6 PM</option>
+<option value="7pm">7 PM</option>
+<option value="8pm">8 PM</option>
+<option value="9pm">9 PM</option>
+<option value="10pm">10 PM</option>
+<option value="11pm">11 PM</option>
+<option value="12am">12 AM</option>
+</select>
+<br>
+<br>
+<input type="submit" value="Create Event">
+</form>
+</body>

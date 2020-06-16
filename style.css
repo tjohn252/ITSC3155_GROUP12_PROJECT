@@ -4,12 +4,12 @@
 }
 
 body {
-  background-color: #1291A8;
+  background-color: #99ccff;
 }
 
 @font-face {
   src: url(impact.ttf);
-  font-family: big;
+  font-family: Trebuchet MS;
 }
 
 header {
@@ -17,7 +17,9 @@ header {
   width: 100%;
   height: 50px;
   background-color: #DCE9C7;
+
 }
+
 
 a {
   decoration: none;
@@ -25,34 +27,55 @@ a {
 }
 
 h1 {
-  color: #DCE9C7;
+  color: black;
   padding-top: 150px;
   padding-bottom: 15px;
-  font-family: big;
+  font-family: Trebuchet MS;
   font-size: 60px;
 }
 
 h2 {
-  color: #DCE9C7;
+  color: black;
   padding-bottom: 15px;
+  font-family: Trebuchet MS;
+}
+
+h3 {
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  font-family: Trebuchet MS;
+  text-align: center;
 }
 
 ul {
-  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  background-color: #1E90FF
 }
 
-ul li {
-  list-style: none;
-  display: inline-block;
-  padding-top: 15px;
+li {
+  float: left;
 }
 
-ul li a {
-  decoration: none;
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  color: #1291A8;
-  padding-right: 10px;
-  padding-left: 10px;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a:active {
+  background-color: #483D8B;
 }
 
 .title-text {
@@ -66,12 +89,12 @@ ul li a {
   margin: auto;
   width: 100px;
   height: 50px;
-  background-color: #124157;
-  font-family: big;
+  background-color: #E8E8E8;
+  font-family: Trebuchet MS;
   font-size: 32px;
   decoration: none;
   text-align: center;
-  color: #DCE9C7;
+  color: black;
 }
 
 .btn-start:hover {
