@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #99ccff;
+  font-family: Arial;
+}
+
+@font-face {
+  src: url(impact.ttf);
+  font-family: Trebuchet MS;
+}
+
+header {
+  padding: 0px 0px;
+  width: 100%;
+  height: 50px;
+  background-color: #99ccff;
+
+}
+
+
+a {
+  decoration: none;
+  text-decoration: none;
+}
+
+h1 {
+  color: black;
+  padding-top: 150px;
+  padding-bottom: 15px;
+  font-family: Trebuchet MS;
+  font-size: 60px;
+}
+
+h2 {
+  color: black;
+  padding-bottom: 15px;
+  font-family: Trebuchet MS;
+}
+
+h3 {
+  color: black;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  font-family: Trebuchet MS;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  background-color: #1E90FF
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a:active {
+  background-color: #483D8B;
+}
+
+.title-text {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.btn-start {
+  decoration: none;
+  margin: auto;
+  width: 100px;
+  height: 50px;
+  background-color: #E8E8E8;
+  font-family: Trebuchet MS;
+  font-size: 32px;
+  decoration: none;
+  text-align: center;
+  color: black;
+}
+
+.btn-start:hover {
+  opacity: 80%;
+}
+
+.btn-start p {
+  padding-top: 5px;
+}

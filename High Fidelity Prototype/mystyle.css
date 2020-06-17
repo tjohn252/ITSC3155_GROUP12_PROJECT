@@ -1,0 +1,137 @@
+BODY {
+  font-family: Trebuchet MS;
+  margin: 0;
+  background-color: #99ccff;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  background-color: #1E90FF;
+  font-family: Arial;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a:active {
+  background-color: #483D8B;
+}
+
+H1 {
+  padding-top: 30px;
+  padding-bottom: 0px;
+  text-align: center;
+  color: black;
+  letter-spacing: 3px;
+}
+
+H3 {
+  text-align: center;
+  color: black;
+}
+
+TH{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.myTimetable {
+  width:50%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  float:left
+}
+
+
+.myTimetable THEAD{
+  color: black;
+}
+
+.myTimetable TBODY {
+  background-color: #d9d9d9;
+}
+.myTimetable TD {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+.myTimetable TBODY TR TD:first-child {
+  background-color: white;
+  font-weight: bold;
+}
+.myTimetable TBODY TR:nth-child(5) TD:nth-child(5),TR:nth-child(6) TD:nth-child(5),TR:nth-child(7) TD:nth-child(5),TR:nth-child(8) TD:nth-child(5), TR:nth-child(9) TD:nth-child(5)
+{
+background-color:#0F3;
+}
+
+.myTimetable TBODY TR:nth-child(8) TD:nth-child(2), TR:nth-child(9) TD:nth-child(2),TR:nth-child(10) TD:nth-child(2)
+{
+background-color:#80ff99;
+}
+
+.myTimetable TBODY TR:nth-child(5) TD:nth-child(6),TR:nth-child(6) TD:nth-child(6),TR:nth-child(7) TD:nth-child(6)
+{
+background-color:#00801a;
+}
+.status {
+  font-size: 12pt;
+  margin-bottom:4px;
+}
+
+.timetable .open {
+  font-size: 10pt;
+  font-style: italic;
+}
+.myMembers {
+  width:47%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  float:right
+}
+.myMembers THEAD{
+  color: black;
+}
+
+.myMembers TBODY {
+  background-color: #d9d9d9;
+}
+.myMembers TD {
+  border: 1px solid black;
+  padding: 6px;
+  text-align: center;
+}
+.myMembers TBODY TR TD:first-child {
+  background-color: white;
+  font-weight: bold;
+}
+.myMembers TBODY TR:nth-child(1) TD:nth-child(1)
+{
+background-color:#00801a;
+}
+p.links{
+ font-size: 20pt;
+ font-style: italic;
+ display:block;
+ margin:10px 0 10px 0;
+ float:right;
+}
+hr {
+  border: 1px solid black;
+}
